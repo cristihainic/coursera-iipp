@@ -15,7 +15,7 @@ def new_game():
         num_guesses = 7
         secret_number = random.randrange (0, 101)
         print "\nNew game started. Range is from 0 to 100."
-        print "Number of guesses left: %r." %num_guesses  # yes, I have studied SOME Python before signing up for this class.
+        print "Number of guesses left: %r." %num_guesses
     elif num_range == 1001:
         num_guesses = 10
         secret_number = random.randrange(0, 1001)
